@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click-to-Reveal Formulas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1c1c1c, #444);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+            animation: glowText 2s infinite alternate;
+        }
+        .formula-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .formula {
+            font-size: 24px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+        .formula:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .formula span {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .formula.revealed span {
+            display: inline;
+            opacity: 1;
+        }
+        .highlight {
+            color: #ffcc00;
+            font-weight: bold;
+            text-shadow: 0 0 10px #ffcc00;
+        }
+        @keyframes glowText {
+            from { text-shadow: 0 0 10px #ffcc00; }
+            to { text-shadow: 0 0 20px #ff6600; }
+        }
+    </style>
+    <script>
+        function toggleFormula(element) {
+            element.classList.toggle("revealed");
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Click-to-Reveal
+    
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click-to-Reveal Formulas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1c1c1c, #444);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+            animation: glowText 2s infinite alternate;
+        }
+        .formula-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .formula {
+            font-size: 24px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+        .formula:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .formula span {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .formula.revealed span {
+            display: inline;
+            opacity: 1;
+        }
+        .highlight {
+            color: #ffcc00;
+            font-weight: bold;
+            text-shadow: 0 0 10px #ffcc00;
+        }
+        @keyframes glowText {
+            from { text-shadow: 0 0 10px #ffcc00; }
+            to { text-shadow: 0 0 20px #ff6600; }
+        }
+    </style>
+    <script>
+        function toggleFormula(element) {
+            element.classList.toggle("revealed");
+        }
+    </script>
+
+
+
+    </h1><h1>
+   𝐒𝐀𝐈 𝐊𝐈𝐑𝐀𝐍❤️𝐌𝐀𝐍𝐂𝐇𝐄𝐑𝐈𝐀𝐋</h1>
+
+    <div class="formula-container">
+        <div class="formula" onclick="toggleFormula(this)">
+            <b>L<sub>internal</sub></b> <br>
+            <span>= (<span class="highlight">μ₀ μ<sub>r</sub></span>) / (8π)</span>
+        </div>
+
+        <div class="formula" onclick="toggleFormula(this)">
+            <b>L<sub>external</sub></b> <br>
+            <span>= (<span class="highlight">μ₀ μ<sub>r</sub></span>) / (4π) ln(d/r)</span>
+        </div>
+
+        <div class="formula" onclick="toggleFormula(this)">
+            <b>L<sub>a</sub></b> <br>
+            <span>= L<sub>internal</sub> + L<sub>external</sub></span>
+        </div>
+
+        <div class="formula" onclick="toggleFormula(this)">
+            <b>L<sub>a</sub> / L<sub>b</sub></b> <br>
+            <span>= <span class="highlight">2 × 10⁻⁷</span> ln(gmd/gmr) H/m</span>
+        </div>
+
+        <div class="formula" onclick="toggleFormula(this)">
+            <b>L<sub>Loop</sub></b> <br>
+            <span>= L<sub>a</sub> + L<sub>b</sub></span>
+        </div>
+
+        <div class="formula" onclick="toggleFormula(this)">
+            <b>L<sub>Loop</sub></b> <br>
+            <span>= <span class="highlight">0.4</span> ln(gmd/gmr) milli H/km</span>
+        </div>
+
+        <div class="formula" onclick="toggleFormula(this)">
+            <b>C<sub>an</sub></b> <br>
+            <span>= (<span class="highlight">2π ε₀ ε<sub>r</sub></span>) / ln(gmd/gmr) F/m</span>
+        </div>
+
+        <div class="formula" onclick="toggleFormula(this)">
+            <b>C<sub>ab</sub></b> <br>
+            <span>= (<span class="highlight">π ε₀ ε<sub>r</sub></span>) / ln(gmd/r) F/m</span>
+        </div>
+    </div>
+
+
+</body></html>
